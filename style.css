@@ -1,0 +1,295 @@
+#first{
+    background: linear-gradient(skyblue,yellow);
+}
+#spaces{
+    margin: 35px; 
+}
+.center_place{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    
+}
+
+table, th, td{
+    border: 1px solid black;
+    
+
+}
+#computerfont{
+    font-family: 'press start 2P';
+
+}
+.terms_of_conditions{
+    color: blue;
+  
+    text-decoration: wavy underline;
+}
+
+.move_button{
+    margin-top: 50px;
+    margin-left: 50px;
+    float: left;
+}
+
+.border{
+    border-style: outset;
+    border-width: 5px;
+    border-color: blue;
+    border-radius: 5px;
+
+}
+
+#main_border{
+    background-color: powderblue;
+    border-top-style:dotted;
+    border-top-color:red;
+    border-bottom-style:dotted;
+    border-bottom-color:red;
+    border-right-style: double;
+    border-right-width: 10px;
+    border-right-color: burlywood;
+    border-left-style: double;
+    border-left-width: 10px;
+    border-left-color: burlywood;
+
+}
+
+.background{
+    background-color: lightcoral;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.matrix{
+    background-image: url('kmla.jpg');
+    background-position: center;
+    background-size: cover;
+    color: rgba(255, 255, 255, 0.922);
+    text-emphasis-color: rgb(128, 128, 234);    
+    
+
+}
+
+#box1{
+    border: 5px solid;
+    background-color: greenyellow;
+    height: 200px;
+    width: 600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 25%;
+
+}
+#box2{
+    border: 5px solid;
+    background-color: greenyellow;
+}
+
+
+
+#book1{
+    border: 3px solid;
+    background-color: rgb(10, 224, 224);
+    margin-top: 50px;
+    margin-left: 57.5%;
+    position: absolute;
+
+    width: 500px;
+    height: 400px;
+}
+
+#bookbox1{
+    background-color: blueviolet;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#book2{
+    border: 3px solid;
+    background-color: rgb(10, 224, 224);
+    margin-top: 50px;
+    position:absolute;
+
+    width: 500px;
+    height: 400px;
+    margin-left: 2.5%;
+}
+
+#book3{
+    border: 3px solid;
+    background-color: rgb(10, 224, 224);
+    margin-top: 500px;
+    position:absolute;
+    margin-left: 57.5%;
+
+    width: 500px;
+    height: 400px;
+}
+
+#book4{
+    border: 3px solid;
+    background-color: rgb(10, 224, 224);
+    margin-top: 500px;
+    position:absolute;
+
+    width: 500px;
+    height: 400px;
+    margin-left: 2.5%;
+
+}
+
+
+.image_center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#artwork0{
+    margin: 0;
+    font-size: 2rem;
+    display: flex;
+    background-color: aquamarine;
+}
+.artwork1{
+    font-size: 2rem;
+    background-color: pink;
+    display: flex;
+    width:  550px;
+    height: 550px;
+    margin-top: 100px;
+    margin-right: 200px;
+    margin-left: 400px;
+    margin-bottom: 100px;
+    
+}
+
+#artwork2{
+    display: flex;
+    background-color: black;
+    height: 450px;
+    width: 450px;
+    margin: 50px;
+}
+#artwork3{
+    display: flex;
+    position: relative;
+    background-color: blue;
+    height: 300px;
+    width: 300px;
+    margin: 70px;
+    
+}
+
+#artwork4{
+    display: flex;
+    position: relative;
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+    
+}
+
+#artwork5{
+    display: flex;
+    position: relative;
+    background-color: purple;
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+    
+}
+#artwork6{
+    display: flex;
+    position: relative;
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    margin: 25px;
+    padding: 10px;
+    font-size: 10px;
+    
+}
+
+
+/*
+content, bopadding, border, margin== box model
+*/
+
+#books_intro{
+    
+    display: flex;
+    position: relative;
+    border: 3px dotted;
+    text-align: center;
+    padding-left: 45%;
+    margin-top: 30px;
+    
+}
+
+#artwork_intro{
+    
+    display: flex;
+    position: relative;
+    border: 3px dotted;
+    text-align: center;
+    padding-left: 45%;
+
+    margin-top: 30px;
+}
+
+a:hover{
+    color: green;
+}
+a:active{
+    color: yellow;
+}
+a:visited{
+    color: black;
+}
+
+.goback{
+    border: 3px solid;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 0px;
+    
+
+}
+.goback:visited{
+    background-color: gray;
+}
+
+.goback:hover{
+    background-color: green;
+}
+goback:active{
+    background-color: green;
+}
+
+#confirm{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 20px;
+}
+.text_confirm{
+    position: absolute;
+    margin-top: 5000px;
+    margin-left: 20px;
+    color: black;
+
+}
